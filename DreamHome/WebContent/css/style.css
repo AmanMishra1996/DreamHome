@@ -16,28 +16,26 @@
 	background-size:100% 100%;
 	background-image:url(/DreamHome/images/top.jpg);
 	background-repeat:no-repeat;
-	opacity:0.5;
+	
 }
 .container {
     position: relative;
     font-family: Arial;
-    font-weight:bold;
+    font-weight:bolder;
     text-align: center;
-    
+    overflow:hidden;  
     
 }
+
 .centered {
     position: absolute;
-    top:10px;
-    bottom: 10px;
-    right: 20%;
-    left:20%;
+    top:0px;
+    bottom: 40px;
+    right: 25%;
+    left:25%;
     background-color: transparent;
-    color: Red;
-   
-    padding-left: 20px;
-    padding-right: 20px;
-    
+    color:#ff0000; 
+       
 }
 #parentHeader{
 	width:100%;
@@ -112,20 +110,26 @@
 #parentFooterAboutUs{
 	width: 20%;
 	height:100%;
-	background-color: black;
+	background-color: pink;
 	float:left;
+	text-align: center;
+	font-family: "Cooper","Times New Roman", Times, serif;
 }
 #parentFooterServices{
 	width: 20%;
 	height:100%;
 	background-color: blue;
 	float:left;
+	text-align: center;
+	font-family: "Cooper","Times New Roman", Times, serif;
 }
  #parentFooterContactUs{
 	width: 40%;
 	height:100%;
 	background-color: fuchsia;
 	float:left;
+	text-align: center;
+	font-family: "Cooper","Times New Roman", Times, serif;
 } 
  #parentFooterSocialMedia{
 	width: 20%;
